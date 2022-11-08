@@ -1,11 +1,59 @@
-body{
+body {
     background: #77e1e14d;
 }
 
-*{
+* {
     margin: 0px auto;
     padding: 0px;
 }
 
+#bienvenido {
+    margin-top: 5%;
+    font-size: 50px;
+    font-family: sans-serif, Arial, Helvetica;
+    text-align: center;
+    color: rgb(19, 197, 252);
+    text-shadow: -6px 0px 2px black;
+}
 
+.tecno {
+    text-shadow: -6px 0px 2px white;
+    color: black;
+}
 
+#menu {
+    width: 80%;
+    height: 300px;
+
+}
+
+#menu ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none ;
+    margin-top: 5% ;
+}
+
+#menu ul li {
+    width: 80%;
+    background-color: #0dd7ec73;
+    text-align: center;
+    border-radius: 50px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#menu ul li:hover{
+    background-color:  #11c3ec8a
+}
+
+#menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif,Arial, Helvetica;
+    color: black;
+}
+
+#menu ul li a:hover{
+    color: white;
+}
